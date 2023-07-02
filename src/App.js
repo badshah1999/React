@@ -44,7 +44,6 @@ function App() {
     const url = `${API}/${id}`
     const result= await apiRequest(url,data)
     if(result) setFetchError(result)
-    //localStorage.setItem("todo",JSON.stringify(list))
   }
   
   const addItem = (e) =>{

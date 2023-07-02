@@ -2,7 +2,6 @@ import { useRef } from "react";
 
 const Add = ({ additems, setAddItems, addItem }) => {
   const inputRef = useRef();
-
   const handleFocus = () => {
     addItem();
     inputRef.current.focus();
